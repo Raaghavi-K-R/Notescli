@@ -2,7 +2,7 @@ from pymongo import MongoClient
 from bson.objectid import ObjectId
 
 # MongoDB Atlas URI
-MONGO_URI = "mongodb+srv://notescli_usr:mongodb@notescluster.7afyc.mongodb.net/"
+MONGO_URI = "mongodb+srv://notescli_usr:******@notescluster.7afyc.mongodb.net/"
 client = MongoClient(MONGO_URI)
 db = client["notescli"]
 collection = db["notes"]
