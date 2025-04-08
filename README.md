@@ -150,7 +150,7 @@ notescli read
 # etc.
 ```
 
-> View on PyPI: [https://pypi.org/project/notescli-tool](https://pypi.org/project/notescli-tool)
+> View on PyPI: [https://pypi.org/project/notescli-tool](https://pypi.org/project/notescli-tool/#files)
 
 ---
 
