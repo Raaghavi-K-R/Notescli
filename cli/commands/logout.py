@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import click
 import os
 
@@ -12,7 +11,6 @@ def logout_user():
         click.echo("✅ Successfully logged out.")
     else:
         click.echo("❌ No user currently logged in.")
-=======
 import click
 import os
 
@@ -26,4 +24,4 @@ def logout_user():
         click.echo("✅ Successfully logged out.")
     else:
         click.echo("❌ No user currently logged in.")
->>>>>>> 41573d58ff3ea5a5986c5c51461a829b2031a4f3
+
