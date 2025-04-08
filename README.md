@@ -87,10 +87,8 @@ notescli delete <note_id>
 ### Install (from GitHub)
 
 ```bash
-notescli install
+pip install git+https://github.com/Raaghavi-K-R/Notescli.git
 ```
-- (Optional) Custom command to reinstall the tool from GitHub (if configured)
-
 ---
 
 
@@ -121,25 +119,29 @@ Example API endpoints:
 
 ## 📡 Deployment
 
-You can deploy the backend using:
+The backend server is deployed on a Microsoft Azure VM at the public IP:  
+👉 http://13.71.28.224:5000
+
+The server runs on port 5000 and was started using the following command:
 
 ```bash
-python server/app.py
+nohup python3 app.py --host 0.0.0.0 --port 5000 &
 ```
 
-Or run on a remote VM and point the client to the appropriate IP (e.g., `http://13.71.28.224:5000`).
+This allows the server to run in the background and remain active even after logout.  
+The client can connect to the backend by pointing to the above IP and port.
 
 ---
 
 ## 🌍 Global Tool Installation (PyPI)
 
-Once published to PyPI:
+Published to PyPI, that can be installed using commad:
 
 ```bash
 pip install notescli-tool
 ```
 
-Then use anywhere:
+Then use it locally:
 
 ```bash
 notescli login
