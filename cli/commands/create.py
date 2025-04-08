@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import click
 import requests
 from cli.commands.login import get_token
@@ -25,7 +25,7 @@ def create_note():
         click.echo(f"✅ Successfully created note with ID: {response.json()['id']}")
     else:
         click.echo("❌ Failed to create the note.")
-=======
+
 import click
 import requests
 from cli.commands.login import get_token
@@ -53,4 +53,4 @@ def create_note():
         click.echo(f"✅ Successfully created note with ID: {response.json()['id']}")
     else:
         click.echo("❌ Failed to create the note.")
->>>>>>> 41573d58ff3ea5a5986c5c51461a829b2031a4f3
+

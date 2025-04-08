@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import click
 import webbrowser
 import os
@@ -127,7 +127,7 @@ def start_http_server():
 
 if __name__ == "__main__":
     login_user()
-=======
+
 import click
 import webbrowser
 import os
@@ -256,4 +256,4 @@ def start_http_server():
 
 if __name__ == "__main__":
     login_user()
->>>>>>> 41573d58ff3ea5a5986c5c51461a829b2031a4f3
+

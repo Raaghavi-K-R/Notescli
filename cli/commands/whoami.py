@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import click
 import requests
 from cli.commands.login import get_token
@@ -21,7 +21,7 @@ def whoami_user():
         click.echo(f"👤 You are logged in with email: {user['email']}")
     else:
         click.echo("❌ Unable to fetch user information. Please log in again.")
-=======
+
 import click
 import requests
 from cli.commands.login import get_token
@@ -44,4 +44,4 @@ def whoami_user():
         click.echo(f"👤 You are logged in with email: {user['email']}")
     else:
         click.echo("❌ Unable to fetch user information. Please log in again.")
->>>>>>> 41573d58ff3ea5a5986c5c51461a829b2031a4f3
+

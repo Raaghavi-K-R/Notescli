@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import requests
 
 AUTH0_DOMAIN = "dev-g685aqnukt2eao2p.us.auth0.com"
@@ -15,7 +15,7 @@ def verify_token(auth_header):
         user_info = response.json()
         return user_info["sub"]  # Return user ID
     return None
-=======
+
 import requests
 
 AUTH0_DOMAIN = "dev-g685aqnukt2eao2p.us.auth0.com"
@@ -32,4 +32,4 @@ def verify_token(auth_header):
         user_info = response.json()
         return user_info["sub"]  # Return user ID
     return None
->>>>>>> 41573d58ff3ea5a5986c5c51461a829b2031a4f3
+

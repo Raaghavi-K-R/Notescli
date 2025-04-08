@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 from pymongo import MongoClient
 from bson.objectid import ObjectId
 
@@ -49,7 +49,7 @@ def delete_note(user_id, note_id):
         return result.deleted_count > 0
     except:
         return False
-=======
+
 from pymongo import MongoClient
 from bson.objectid import ObjectId
 
@@ -80,4 +80,3 @@ def update_note(user_id, note_id, title, content):
 def delete_note(user_id, note_id):
     result = collection.delete_one({"_id": ObjectId(note_id), "user_id": user_id})
     return result.deleted_count > 0
->>>>>>> 41573d58ff3ea5a5986c5c51461a829b2031a4f3
