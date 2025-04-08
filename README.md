@@ -173,6 +173,5 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 ---
 
 ✨ Happy Noting with NOTECLI!
-=======
-# Notescli: A CLI Tool for taking notes with Auth0 Security
+
 
