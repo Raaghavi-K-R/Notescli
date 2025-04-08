@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 📝 NOTECLI - A Simple Command-Line Notes Manager
 
 NOTECLI is a Python-based Command-Line Interface (CLI) tool that allows users to securely create, read, update, and delete notes from the terminal. It integrates with Auth0 for authentication and MongoDB (via Atlas) as the backend database. Built with Flask, it offers a seamless way to manage your notes from any system.
@@ -172,3 +173,6 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 ---
 
 ✨ Happy Noting with NOTECLI!
+=======
+# Notescli: A CLI Tool for taking notes with Auth0 Security
+>>>>>>> 41573d58ff3ea5a5986c5c51461a829b2031a4f3
