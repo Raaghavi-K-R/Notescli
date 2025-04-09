@@ -158,14 +158,18 @@ notescli read
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you'd like to change.
 
-## 🙋‍♀️ Author
+## 🙋‍♀️ Authors
 
-**Maintainer:** Raaghavi
+### Maintainers
 
+#### Raaghavi  
 - 📧 Email: [krraaghavi@gmail.com](mailto:krraaghavi@gmail.com)  
-- 💻 GitHub: [github.com/Raaghavi-K-R](https://github.com/Raaghavi-K-R/Notescli)  
-- 🔗 LinkedIn: [linkedin.com/in/raaghavi-k-r](https://www.linkedin.com/in/raaghavi-k-r/)  
+- 💻 GitHub: [Raaghavi-K-R](https://github.com/Raaghavi-K-R/Notescli)  
+- 🔗 LinkedIn: [linkedin.com/in/raaghavi-k-r](https://www.linkedin.com/in/raaghavi-k-r/)
 
+#### Shrivarshini  
+- 💻 GitHub: [shri210404](https://github.com/shri210404)
+ 
 ## 🔗 Useful Links
 
 - 🔐 [Auth0](https://auth0.com/)
